@@ -1,0 +1,83 @@
+--here the style code is written along with the code.
+for creating StyleSheet.create is used .
+
+--in react native we are not using the <div></div>
+and other html tag because these are the html element which work in the browser when we have a dom to work with.but they don't work here o the native device because native device have not browser.
+
+--there is no browser so there is no css existance.
+
+--we write  inline style which are completely in javascript
+but the react native theme gives you a lot of javascript properties which you can set and passed to core elements which are similar to css properties.
+
+
+--one thing to the App component the App.js file have the special purpose this is the root component that is render in your app.expo automatically take that component exported in the app.js file and render as the root component.
+
+
+--we can't put text into view like 
+<div>
+    Hello world
+</div>
+
+--in react we don't need to import html element but in react native we have to import first.also unlike we we dont have to build button like this <Button> tap me!</Button>.
+
+--we have to build by self closing tag like this <Button title='tap me!'/>
+
+--for styling we use the style props which is not supported on all the element.
+
+style={{}} -->here {} this mean we are passing the javascript object this properties commonly similar to css properties but not always same.
+
+
+--we can also add style sheet by const style2={};
+but when we create StyleSheet.create({}) it gives the auto completion.
+
+--here flex is used to grow and shrink the item.
+
+
+const addGoalHandler=()=>{
+   setcourseGoal([...courseGoal,enteredGoalText]);
+  } 
+the above code is for the updating the couse goal whenever we are added the goal but it is not a good way.
+
+const addGoalHandler=()=>{
+   setcourseGoal(currentCourseGoal=>[...currentCourseGoal,enteredGoalText]);
+  } this is a better way of writing the code.
+
+
+--In website the when we added the things its automaticall the scroll bar is come up nut in the app or react native the scroll bar is not set by default.
+
+--the ScrollView is to be imported in the react-native it has some end point ScrollView have limited scroll content there fore the FlatList is used which render the necessary content . 
+
+--for the dynamic scroll we have to use FlatList
+
+--the map function is removed and the  Flatlist is used which contains the data={} and the renderItem={()=>{
+
+}} is used which tells that how the data is render without using the map.
+
+
+
+
+<View style={styles.goalsContainer}>
+        <FlatList data={courseGoal} renderItem={(itemData)=>{
+          return(
+           <View key={goal} style={styles.goalItem}>
+             <Text style={styles.goalText}>{goal}</Text>
+           </View>
+          );
+        }}/>    
+</View>
+
+itemData.index gives the index of the item.
+itemData holds another properties that are itemData.item we got access to each data item that have there.so we remove key props becoz we are no longer access the map function.   
+
+--keyExtractor(read from official docs) props is passed to the FlatList which takes a function as a value which takes two parameter value .Used to extract a unique key for a given item at the specified index.  
+
+
+--now onclick such that the FlatList item is deleted or that list is deleted on the press.
+which is the Pressable the view content is wrapped under Pressable.
+
+
+--on onpress of the list it should be deleted.
+
+--currentCourseGoal.filter((goal) => goal.id !== id): This line filters the currentCourseGoal array to remove the element whose id matches the id passed to the deleteGoalhandler function.the inner function true item is kept if false item is removed.
+
+--now adding style in the Pressable is farely easy becoz a android_ripple={{}}
