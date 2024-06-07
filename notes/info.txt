@@ -33,17 +33,18 @@ but when we create StyleSheet.create({}) it gives the auto completion.
 --here flex is used to grow and shrink the item.
 
 
+**spread operator*** 
 const addGoalHandler=()=>{
    setcourseGoal([...courseGoal,enteredGoalText]);
   } 
-the above code is for the updating the couse goal whenever we are added the goal but it is not a good way.
+the above code is for the updating the couse goal whenever we are added the goal but it is not a good way.its a better way of updating is to pass a function to the state updating function.
 
 const addGoalHandler=()=>{
    setcourseGoal(currentCourseGoal=>[...currentCourseGoal,enteredGoalText]);
   } this is a better way of writing the code.
 
 
---In website the when we added the things its automaticall the scroll bar is come up nut in the app or react native the scroll bar is not set by default.
+--In website the when we added the things its automatically the scroll bar is come up but in the app or react native the scroll bar is not set by default.
 
 --the ScrollView is to be imported in the react-native it has some end point ScrollView have limited scroll content there fore the FlatList is used which render the necessary content . 
 
