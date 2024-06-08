@@ -31,17 +31,26 @@ npm start
 
 ## Screenshots
 ### Starting page
-![screenshot](https://github.com/riteskmr20/Course-goal-app/assets/116356030/62abc020-f869-4565-b86b-825295cb4a3d)
+![screenshot](https://github.com/riteskmr20/Course-goal-app/assets/116356030/fd22f341-d878-40aa-8a7a-1143548f7fce)
+
 
 ### Add goal
-![screenshot2](https://github.com/riteskmr20/Course-goal-app/assets/116356030/9270d4fc-af9b-4e3c-9cb1-ce9bd73d1bf7)
+![screenshot2](https://github.com/riteskmr20/Course-goal-app/assets/116356030/5edf56a8-aa44-4bd8-8244-a92de055893a)
+
 ### Empty goal not added
-![screenshot1](https://github.com/riteskmr20/Course-goal-app/assets/116356030/d9305fc7-7f22-44a0-860b-869d21ea301d)
+![screenshot1](https://github.com/riteskmr20/Course-goal-app/assets/116356030/47907866-4f86-41a3-b182-460fc92db610)
+
+
+
 ### goals are added
-![screenshot3](https://github.com/riteskmr20/Course-goal-app/assets/116356030/2f51a70b-bab4-48c6-aff9-bfd43619eeec)
+![screenshot3](https://github.com/riteskmr20/Course-goal-app/assets/116356030/82f6f48d-c7ca-4c4f-831b-86a176db8027)
+
 
 ### goals are deleted
-![screenshot4](https://github.com/riteskmr20/Course-goal-app/assets/116356030/df3aef99-8055-4733-acf9-52b4a69809ce)
+![screenshot4](https://github.com/riteskmr20/Course-goal-app/assets/116356030/9742b39b-8614-4f0e-bf20-2e797cc0c9bc)
+
+
+
 
 
 
