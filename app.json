@@ -4,7 +4,7 @@
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "backgroundColor":"#1e085a",
     "userInterfaceStyle": "light",
     "splash": {
